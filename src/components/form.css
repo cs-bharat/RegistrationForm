@@ -1,0 +1,108 @@
+.form_body{
+    width: 700px;
+    border: 2px solid rgb(94, 94, 209);
+    /* border-radius :10px; */
+    
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 60px;
+    padding: 10px 30px;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(6, 76, 76);
+}
+
+.form_title{
+    color: rgb(12, 13, 13);
+}
+.name{
+    width: 400px;
+    display: flex;
+    gap: 18px;
+    border-radius: 12px;
+
+}
+.name input{
+    padding: 7px 16px;
+    border: 2px solid black;
+}
+.email{
+    width: 400px;
+    display: flex;
+    gap: 18px;
+}
+.email,input{
+    font-size: 30px;
+    border-radius: 13px;
+
+}
+.email input{
+    padding: 7px 12px;
+    border: 2px solid black;
+}
+
+.contact input{
+    border: 2px solid black;
+    padding: 9px 12px;
+    gap: 16px;
+    font-size: 30px;
+}
+.address{
+    display: flex;
+    gap: 8px;
+    
+}
+.address textarea{
+    padding: 7px 17px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+.city{
+    font-size: 26px;
+    display: flex;
+    gap: 10px;
+}
+.city select{
+    font-size: 24px;
+    padding: 8px;
+    margin: 10px;
+}
+.agree span{
+    font-size: 27px;
+}
+.buttons{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    border-radius: 12px;
+    padding: 3px 14px;
+    width: 30%;
+    font-size: 19px;
+    border-radius: 13px;
+    border: 3px solid rgb(2, 95, 95);
+}
+.form{
+    font-size: 26px;
+    padding: 12px;
+    margin: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: rgb(190, 178, 165);
+    border: 3px solid rgb(19, 18, 18);
+    border-radius:20px ;
+}
+.gender span{
+    font-size: 34px;
+    padding: 10px 13px;
+  
+}
+.gender,input{
+    padding: 10px 7px;
+    font-size: 30px;
+}

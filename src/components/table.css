@@ -1,0 +1,19 @@
+table{
+    border: 2px solid black;
+    width: 1500px;
+    border-collapse: collapse; /*collapse table ki line  ko */
+    font-size: 30px;
+    background-color: rgb(136, 129, 120);
+    }
+th{
+    border: 2px solid rgb(203, 126, 126);
+}
+
+td{
+    width: 20%;
+    text-align: center;
+    border: 2px solid rgb(94, 58, 58);
+    border-collapse: collapse;
+    padding: 2px;
+
+}

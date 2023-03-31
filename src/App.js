@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Form from './components/Form';
+import Table from './components/Table';
+import { useState } from 'react';
+import Navbar from './components/Navbar';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  const[users,setUsers] = useState([]) // statrting me form empty he
+  const[openForm,setOpenForm] =useState(false); 
+    return (
+        <div className='App'>
+      
+        <Navbar openForm={openForm} setOpenForm={setOpenForm}/>
+        {openForm && <Form users={users} setUsers={setUsers} />}
+        {users.length == 0 ? <h1>No user registerd </h1> : <Table users={users}/> }
+         </div>
   );
 }
 
